@@ -4,9 +4,13 @@ body {
   padding: 0;
 }
 
+/* Global Styles */
+
 div.container {
   overflow: hidden;
 }
+
+/* Header Styles */
 
 header {
   font-family: Verdana, sans-serif;
@@ -42,3 +46,5 @@ span a {
 nav#header_nav {
   margin-right: 60px;
 }
+
+/* Main Styles */
