@@ -26,7 +26,6 @@ header {
 
 div#branding {
   color: MediumAquamarine;
-  flex-grow: 2;
 }
 
 div#branding span{
@@ -48,3 +47,78 @@ nav#header_nav {
 }
 
 /* Main Styles */
+
+div#main-content {
+  display: flex;
+  width: 90%;
+  margin: 35px auto;
+}
+
+.column {
+  border: 2px solid black;
+}
+
+.column p {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  color: black;
+}
+
+.column.large {
+  width: 630px;
+  display: inline-flex;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+div#main-story-img {
+  background: url("./images/main-story.png") no-repeat;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  width: 630px;
+  height: 300px;
+}
+
+div#fall-img {
+  background: url("./images/fall.png") no-repeat;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+  height: 300px;
+}
+
+div#cameraman-img {
+  background: url("./images/hipster-cameraman.png") no-repeat;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+  height: 300px;
+}
+
+div#cat-img {
+  background: url("./images/cat-ceo.png") no-repeat;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+  height: 300px;
+}
+
+div#cookie {
+  background: url("./images/cookie.png") no-repeat;
+  width: 240;
+  height: 240;
+}
