@@ -66,7 +66,6 @@ div#split_paragraphs {
 }
 
 .column {
-  border: 2px solid black;
   font-family: Georgia, serif;
   font-size: 17px;
   color: black;
@@ -165,10 +164,32 @@ span.bite {
 /* Footer Styles */
 
 footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
   width: 100%;
   height: 325px;
   background-color: #66CDAA;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+span#footer_branding {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+div#footer_nav nav {
+  display: inline-block;
+}
+
+div#footer_nav span {
+  display: inline-block;
 }
